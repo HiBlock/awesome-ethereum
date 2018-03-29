@@ -221,3 +221,7 @@ $ geth --datadir /hiblock.net/private_net/datadir --networkid 1000 console
 }
 >
 ```
+
+参考文档：  
+http://www.blockchainbrother.com/question/13  
+https://github.com/ConsenSys/local_ethereum_network  
