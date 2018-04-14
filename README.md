@@ -4,9 +4,10 @@ HiBlock区块链社区一起学以太坊
 1. [教你6步搭建一个以太坊私链](./setup-a-private-ethereum-blockchain.md)  
 2. [以太坊账户、挖矿、转账](./ethereum-account-miner.md)  
 3. [如何在以太坊上开一家宠物店](./petstore-truffle.md)  
-3. Ethereum Virtual Machine (EVM)
-4. 智能合约（Solidity）
-5. 欢迎补充（持续更新中）
+4. [如何用15行代码发布自己的token](./how-to-issue-token-truffle.md)  
+5. Ethereum Virtual Machine (EVM)
+6. 智能合约（Solidity）
+7. 欢迎补充（持续更新中）
 
 
 ## HiBlock介绍
