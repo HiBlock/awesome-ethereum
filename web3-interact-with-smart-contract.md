@@ -1,11 +1,11 @@
 Web3与智能合约交互实战
 ===================
 
-##写在前面
+##写在前面##
 
 在最初学习以太坊的时候，很多人都是自己创建以太坊节点后，使用geth与之交互。这种使用命令行交互的方法虽然让很多程序员感到兴奋（黑客帝国的既视感？），但不可能指望普通用户通过命令行使用Dapp。因此，我们需要一种友好的方式（比如一个web页面）来与智能合约交互，于是问题的答案就是``web3.js``。
 
-##Web3.js
+##Web3.js##
 
 [Web3.js](https://web3js.readthedocs.io/en/1.0/)是以太坊官方的Javascript API，可以帮助智能合约开发者使用HTTP或者IPC与本地的或者远程的以太坊节点交互。实际上就是一个库的集合，主要包括下面几个库：
 
@@ -18,7 +18,7 @@ Web3与geth通信使用的是 [JSON-RPC](https://github.com/ethereum/wiki/wiki/J
 
 ![Web3 Communication Model](./images/Communication_Model.jpg)
 
-##搭建测试链
+##搭建测试链##
 
 在开发初期，我们并没有必要使用真实的公链，为了开发效率，一般选择在本地搭建测试链。在本文我们选择的[Ganache](http://truffleframework.com/ganache/)（在此之前使用的是testrpc，Ganache属于它的升级版），一个图形化测试软件（也有命令行版本），可以一键在本地搭建以太坊区块链测试环境，并且将区块链的状态通过图形界面显示出来，Ganache的运行界面如下图所示。
 
@@ -26,7 +26,7 @@ Web3与geth通信使用的是 [JSON-RPC](https://github.com/ethereum/wiki/wiki/J
 
 从图中可以看到Ganache会默认创建10个账户，监听地址是``http://127.0.0.1:7545``，可以实时看到``Current Block``、``Gas Price``、``Gas Limit``等信息。
 
-##创建智能合约
+##创建智能合约##
 
 目前以太坊官方全力支持的智能合约开发环境是[Remix IDE](https://remix.ethereum.org)，我们在合约编辑页面编写如下代码：
 
@@ -57,7 +57,7 @@ contract InfoContract {
 
 如果连接成功，那么在下面的``Account``的选项会默认选择 Ganache 创建的第一个账户地址。接下来我们点击``Create``就会将我们的智能合约部署到我们的测试网中。接下来 Remix 的页面不要关闭，在后面编写前端代码时还要用到合约的地址以及``ABI``信息。
 
-##安装Web3
+##安装Web3##
 
 在这之前，先在终端创建我们的项目：
 
@@ -80,7 +80,7 @@ contract InfoContract {
 
 >	*注意：* 在实际安装过程中我发现web3在安装完成后并没有 ``/node_modules/web3/dist/we3.min.js`` 文件，这个问题在 [issue#1041](https://github.com/ethereum/web3.js/issues/1041)中有体现，但官方好像一直没解决。不过可以在这里[下载](https://codeload.github.com/ethereum/web3.js/zip/develop)所需的文件，解压后将``dist``文件夹的内容拷贝到 ``/node_modules/web3``路径下。
 
-##创建 UI
+##创建 UI##
 
 在项目目录下创建``index.html``，在这里我们将创建基础的 UI，功能包括``name``和``age``的输入框，以及一个按钮，这些将通过 jQuery 实现：
 
@@ -160,7 +160,7 @@ button {
 }
 ```
 
-##使用Web3与智能合约交互
+##使用 Web3 与智能合约交互##
 
 UI 创建好之后，在``<script>``标签中间编写``web.js``的代码与智能合约交互。首先创建``web3``实例，并与我们的测试环境连接：
 
