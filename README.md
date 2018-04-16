@@ -5,6 +5,7 @@ HiBlock区块链社区一起学以太坊
 2. [以太坊账户、挖矿、转账](./ethereum-account-miner.md)  
 3. [如何在以太坊上开一家宠物店](./petstore-truffle.md)  
 4. [如何用15行代码发布自己的token](./how-to-issue-token-truffle.md)  
+5. [Web3与智能合约交互实战](./web3-interact-with-smart-contract.md)
 5. Ethereum Virtual Machine (EVM)
 6. 智能合约（Solidity）
 7. 欢迎补充（持续更新中）
