@@ -113,6 +113,20 @@ Saving artifacts...
 ![](./images/ganache-overview.png)  
 
 ## 转账新的 token
+### 前端修改
+
+修改默认的RPC port，9545修改为ganache的7545
+```
+App.web3Provider = new Web3.providers.HttpProvider('http://127.0.0.1:9545');
+```
+
+### 修改调用合约的脚本
+
+下面的TutorialToken.json修改为FakeToken.json
+```
+$.getJSON('TutorialToken.json', function(data) {
+```
+
 ### 配置 MetaMask 
 
 配置 MetaMask 连接本地 ganache  
@@ -123,7 +137,7 @@ MetaMask 创建新的账号（会自动添加 ganache 中第二个账号）
 ### 启动本地 HTTP 服务器
 
 ```
-BobJianglocal:truffle bobjiang$ npm dev run
+BobJianglocal:truffle bobjiang$ npm run dev
 ```
 
 自动打开新网页，如下  
