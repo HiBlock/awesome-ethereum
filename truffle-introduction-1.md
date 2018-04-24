@@ -1,12 +1,13 @@
 # Learn Ethereum - Truffle框架介绍（1）
 
 本文档包含内容来自于[Truffle Framework](http://truffleframework.com/docs/)   
+本文包含内容如下：  
 - 安装
 - 创建项目
 - 客户端的选择
 - 编译合约
 - 部署合约
-- 更多内容请参考下一期
+- 更多内容请参考[下一期](./truffle-introduction-2.md)
 
 ## 安装
 
