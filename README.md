@@ -6,8 +6,9 @@ HiBlock区块链社区一起学以太坊
 3. [如何在以太坊上开一家宠物店](./petstore-truffle.md)  
 4. [如何用15行代码发布自己的token](./how-to-issue-token-truffle.md)  
 5. [Web3与智能合约交互实战](./web3-interact-with-smart-contract.md) by [盖盖](https://github.com/gitferry)
-6. [Truffle入门 - part 1](./truffle-introduction-1.md)  
-7. [Truffle入门 - part 2](./truffle-introduction-2.md)  
+6. [Truffle入门 - part 1 - truffle基本介绍、智能合约编写、编译、部署](./truffle-introduction-1.md)  
+7. [Truffle入门 - part 2 - 智能合约的操作](./truffle-introduction-2.md)  
+8. [Truffle入门 - part 3 - 智能合约的调试](./truffle-introduction-3.md)  
 5. Ethereum Virtual Machine (EVM)
 6. 智能合约（Solidity）
 7. 欢迎补充（持续更新中）
