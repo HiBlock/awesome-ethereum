@@ -1,6 +1,7 @@
 # Learn Ethereum
 
 HiBlock区块链社区一起学以太坊  
+1. [以太坊DAPP开发流程](./ethereum-dapp-development-process.md)  
 1. [教你6步搭建一个以太坊私链](./setup-a-private-ethereum-blockchain.md)  
 2. [以太坊账户、挖矿、转账](./ethereum-account-miner.md)  
 3. [如何在以太坊上开一家宠物店](./petstore-truffle.md)  
