@@ -10,6 +10,7 @@ HiBlock区块链社区一起学以太坊
 6. [Truffle入门 - part 1 - truffle基本介绍、智能合约编写、编译、部署](./truffle-introduction-1.md)  
 7. [Truffle入门 - part 2 - 智能合约的操作](./truffle-introduction-2.md)  
 8. [Truffle入门 - part 3 - 智能合约的调试](./truffle-introduction-3.md)  
+9. [Truffle入门 - part 4 - NPM包管理](./truffle-introduction-4-npm-package.md)  
 5. Ethereum Virtual Machine (EVM)
 6. 智能合约（Solidity）
 7. 欢迎补充（持续更新中）
